@@ -1,0 +1,263 @@
+.dasboard-page-hover{
+    background-image: url('../../assets/Rectangle\ 374.png');
+    background-size: cover;
+    width: 1500px;
+    height: 604px;
+    display: flex;
+    justify-content: space-between;
+}
+.dasboard-page-hover>div:first-child{
+    background: rgba(255, 255, 255, 0);
+    width: 300px;
+}
+.dasboard-page-hover>div:first-child:hover{
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.5) 56%, rgba(255,255,255,0) 100%);
+}
+.dasboard-page-hover>div:nth-child(2){
+    background: rgba(255, 255, 255, 0);
+    width: 200px;
+}
+.dasboard-page-hover>div:nth-child(2):hover{
+    background: linear-gradient(90deg, rgba(255,255,255,0), rgba(255,255,255,0.5));
+}
+.dashboard-headline{
+    position: absolute;
+    display: flex;
+    height:78px;
+    top: 162px;
+    left: 209px;
+    border-radius: 16px;
+    gap: 8px;
+    align-items: center;
+}
+.wheather{
+    
+    display: flex;
+    align-items: center;
+    width: 190px;
+    padding: 16px;
+    gap: 16px;
+}
+.wheather>div{
+    display: flex;
+    align-items: center;
+}
+.wheather>div>h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 64px;
+    
+}
+.wheather>div>h4{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 28px;
+}
+.statement{
+    display: flex;
+    flex-direction: column;
+    width: 257px;
+    gap: 10px;
+}
+.statement>h4{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+.statement>h5{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 11px;
+}
+.todolist{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.26);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    width:369px;
+    top: 162px;
+    left: 1091px;
+    padding: 24px;
+    border-radius: 16px;
+    border: 1px solid #FFFFFF4D;
+    gap: 8px;
+}
+.todolist-heading{
+    width:321px;
+    display: flex;
+    justify-content: space-between;
+}
+.todolist-heading>h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+.todolist-heading>p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 13px;
+}
+.todolist-content{
+    display: flex;
+    flex-direction: column;
+    width:321px;
+    gap: 16px
+}
+.todolist-content-date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px
+}
+.todolist-content-date>p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 15px;
+}
+.todolist-content-date>div{
+    display: flex;
+    gap: 15px;
+}
+.todolist-content-item-container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px
+}
+.todolist-content-item>div{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 8px 12px 8px;
+    border: 0px 0px 1px 0px;
+    gap: 8px;
+}
+.todolist-content-item>div>div:first-child{
+    display: flex;
+    align-items: center;
+    width:246px;
+    gap: 8px;
+}
+.todolist-content-item>div>div:first-child>div:first-child{
+    background-color: rgba(218, 182, 182, 0.075);
+    height: 100%;
+    aspect-ratio: 1/1;
+    display: flex;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+.todolist-content-item>div>div:first-child>div:first-child>p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+.todolist-content-item>div>div:first-child>:nth-child(2){
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.todolist-content-item>div>div:first-child>:nth-child(2)>h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    color: white;
+}
+.todolist-content-item>div>div:first-child>:nth-child(2)>p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 10px;
+    color: white;
+}
+
+.todolist-add-item-btn{
+    background-color: rgba(218, 182, 182, 0.075);
+    height:43.31px;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todolist-add-item-btn>p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    padding-right: 5px;
+}
+.todolist-content-item-btn{
+    display: flex;
+    justify-content: space-between;
+}
+.todolist-content-item-btn>button{
+    background-color: rgba(218, 182, 182, 0.075);
+    border: none;
+    outline: none;
+    width: 30px;
+    margin-left: 5px;
+    border-radius: 5px;
+    aspect-ratio: 1/1;
+}
+.todolist-content-item-btn>button>svg{
+    transform: scale(150%);
+}
+.dashboard-files{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width:842px;
+    top: 418px;
+    left: 209px;
+}
+.dashboard-files>div{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.329);
+    backdrop-filter: blur(10px);
+    width:198.5px;
+    height:146px;
+    padding: 16px;
+    border-radius: 16px;
+    border: 1px solid #FFFFFF4D;
+}
+.dashboard-files>div>div{
+    display: flex;
+    justify-content: space-between;
+}
+.dashboard-files-add{
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center;
+}
+.dashboard-files-add>h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    transform: translateY(20px);
+    color: white;
+}
+.dashboard-files-add>svg{
+    transform: scale(500%);
+}
+.dashboard-files-add>svg>path{
+    fill-opacity: 1;
+}
+.dashboard-files-text{
+    display: flex;
+    flex-direction: column;
+}
+.dashboard-files-text>h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    color: white;
+
+}
+.dashboard-files-text>p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    color: white;
+}
+.dashboard-calender{
+    position: absolute;
+    top: 644px;
+    left: 1091px;
+}

@@ -1,0 +1,49 @@
+.side-menu-container{
+    position: fixed;
+    z-index: 2;
+    width: 169px;
+    height: 980px;
+    border-radius: 88px;
+}
+.side-menu{
+    display: flex;
+    flex-direction: column;
+    width: 169px;
+    height: 980px;
+    padding: 32px 16px 16px 24px;
+    border-radius: 0px 0px 24px 0px;
+    gap: 16px;
+    background: #192841E5;
+}
+.logo{
+    width: 117.05px;
+    height: 35.17px;
+}
+.menu-icon-container{
+    width: 137px;
+    height: 576px;
+    padding: 16px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.menu-icon{
+    display: flex;
+    align-items: center;
+    width: 137px;
+    height: 56px;
+    padding-left: 16px;
+    border-radius: 8px;
+    gap: 4px;
+    background: transparent;
+    text-decoration: none;
+}
+.menu-icon-active{
+    background: #004583;
+}
+.menu-icon>h5{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-weight: 400;
+    padding-left: 5px;
+}

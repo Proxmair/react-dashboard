@@ -1,0 +1,18 @@
+.dashboard-main{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 842px;
+    top: 644px;
+    left: 209px;
+    gap: 16px;
+}
+.feed-container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 16px;
+    border-radius: 16px;
+    gap: 16px;
+    background-color: white;
+}
